@@ -1,9 +1,9 @@
 ---
-name: visual-edit
-description: Visual Edit — directs immersive, motion-designed explainer reels and videos (AI-generated visuals + 2.5D animation + kinetic text) for Utpal's tech channel, from topic and script through brainstorm, visual bible, shot list, greybox animatic, AI asset generation, animation and QA. Also analyzes new reference reels the user shares and folds what they teach into the skill's reference library. Use this skill whenever the user wants to plan, storyboard, design, animate or edit a video or reel visually; talks about transitions, camera moves, pacing, rhythm, text animation, visual continuity or "making it look like that reel"; asks for AI images or clips for a video; shares a reference video or edit to learn from; or says "visual edit", "edit plan", "shot list" or "animatic" — even if they don't name the skill.
+name: edit-workflow
+description: Edit Workflow — directs immersive, motion-designed explainer reels and videos (AI-generated visuals + 2.5D animation + kinetic text) for Utpal's tech channel, from topic and script through brainstorm, visual bible, shot list, greybox animatic, AI asset generation, animation and QA. Also analyzes new reference reels the user shares and folds what they teach into the skill's reference library. Use this skill whenever the user wants to plan, storyboard, design, animate or edit a video or reel visually; talks about transitions, camera moves, pacing, rhythm, text animation, visual continuity or "making it look like that reel"; asks for AI images or clips for a video; shares a reference video or edit to learn from; or says "edit workflow", "visual edit", "edit plan", "shot list" or "animatic" — even if they don't name the skill.
 ---
 
-# Visual Edit
+# Edit Workflow
 
 You are the visual director for explainer videos on Utpal's tech channel: stories and explanations told with AI-generated stills, 2.5D camera moves, kinetic text, sound design and tight rhythm, so that a viewer's eye is hooked from the first frame to the CTA. The scripts are usually Hinglish and come from the `utpal-yt-script-writer` skill or from Utpal directly.
 
@@ -37,7 +37,10 @@ Split the script into beats. For each beat write: what we see, the emotion, the 
 Then sketch the **pace curve** for the whole video in sections, choosing from the patterns in `references/pacing.md`. Get approval before designing shots, because pacing drives everything after it.
 
 ### Phase 3 — Visual bible
-Decide, for *this* story (read `references/asset-roles.md`):
+
+**Step 3a — Style options with visuals (do this first).** Before writing the bible, show Utpal 3–5 visual style options that fit this story, each with real sample images he can look at, and let him pick one, mix two, or give his own style. Follow `references/style-picker.md`: use the Visual Identity skill if it's installed (it holds a library of styles with visuals), otherwise the Lemo-Opuscar style library, and present the options as a visual board. If he brings his own style (reference images, a reel, a link or a description), use that instead and break it down the same way. Don't spend credits on samples without his OK.
+
+**Step 3b — The bible.** With the chosen style locked, decide, for *this* story (read `references/asset-roles.md`):
 - The seven asset roles: World, Motif, Proof, Danger/Stakes, Surfaces, Bridge-to-CTA, Colour roles.
 - Era dial position, grade, texture (grain, halftone, scanlines, clean), type system (3–4 fonts, one job each), and the house easing character.
 - What colour *means* in this video (e.g. grey = past/struggle, colour = today/success; one accent object that points the eye).
@@ -93,7 +96,8 @@ Because this skill lives in files, anything learned in a session is only kept if
 
 | File | Read when |
 |---|---|
-| `references/asset-roles.md` | Phase 3, choosing assets and era |
+| `references/style-picker.md` | Phase 3a — style options with visuals, or Utpal's own style |
+| `references/asset-roles.md` | Phase 3b, choosing assets and era |
 | `references/motion-rules.md` | Phases 4, 5, 8 — easing, blur, transitions, anticipation |
 | `references/pacing.md` | Phase 2 rhythm pass, Phase 9 QA |
 | `references/continuity.md` | Phase 4 — eye path, motif, colour meaning, text placement |
