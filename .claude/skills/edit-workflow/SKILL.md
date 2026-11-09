@@ -38,7 +38,7 @@ Then sketch the **pace curve** for the whole video in sections, choosing from th
 
 ### Phase 3 — Visual bible
 
-**Step 3a — Style options with visuals (do this first).** Before writing the bible, show Utpal 3–5 visual style options that fit this story, each with real sample images he can look at, and let him pick one, mix two, or give his own style. Follow `references/style-picker.md`: use the Visual Identity skill if it's installed (it holds a library of styles with visuals), otherwise the Lemo-Opuscar style library, and present the options as a visual board. If he brings his own style (reference images, a reel, a link or a description), use that instead and break it down the same way. Don't spend credits on samples without his OK.
+**Step 3a — Style options with visuals (do this first).** Before writing the bible, show Utpal 3–5 visual style options that fit this story, each with real sample images he can look at, and let him pick one, mix two, or give his own style. Follow `references/style-picker.md`: use the `visual-identity` skill (Utpal's style library, built on Lemo-Opuscar), and present the options as a visual board. If he brings his own style (reference images, a reel, a link or a description), use that instead and break it down the same way. Don't spend credits on samples without his OK.
 
 **Step 3b — The bible.** With the chosen style locked, decide, for *this* story (read `references/asset-roles.md`):
 - The seven asset roles: World, Motif, Proof, Danger/Stakes, Surfaces, Bridge-to-CTA, Colour roles.
