@@ -1,9 +1,9 @@
 ---
-name: visual-edit-skill
+name: visual-animation
 description: Storyboard-first workflow for motion design and edited videos with seamless, continuous transitions. Use whenever the user asks for an animation, motion graphic, UI motion demo, transition, animated video, video edit, storyboard, or sketch panels, or complains that motion looks jarring, choppy, or not smooth. Flow is brief → sketched storyboard (approved) → style frames (approved) → animatic → final animation verified frame by frame → export for edit.
 ---
 
-# Visual Edit Skill
+# Visual Animation
 
 Goal: motion that feels like one continuous film, not a set of separate animations.
 Never jump straight to final animation code. Every stage below needs the user's
