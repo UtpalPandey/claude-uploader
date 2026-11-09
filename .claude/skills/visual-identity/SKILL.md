@@ -1,6 +1,6 @@
 ---
 name: visual-identity
-description: Visual Identity — Utpal's library of visual styles for videos (built on the open Lemo-Opuscar library of 66+ film styles: painting, printmaking, anime, games, cinema eras, 3D materials, evidence and documentary styles, each with a style prompt, palette, shot directions and a demo frame). Use this skill whenever Utpal wants to see, browse, compare or pick visual styles or looks for a video, asks for a style board or style options, says "visual identity", "styles dikhao", "kaunsa look", or when the edit-workflow skill reaches its style step (Phase 3a). Also use it to turn his own style references into a saved style.
+description: "Visual Identity — Utpal's library of visual styles for videos (built on the open Lemo-Opuscar library of 66+ film styles: painting, printmaking, anime, games, cinema eras, 3D materials, evidence and documentary styles, each with a style prompt, palette, shot directions and a demo frame). Use this skill whenever Utpal wants to see, browse, compare or pick visual styles or looks for a video, asks for a style board or style options, says \"visual identity\", \"styles dikhao\", \"kaunsa look\", or when the edit-workflow skill reaches its style step (Phase 3a). Also use it to turn his own style references into a saved style."
 ---
 
 # Visual Identity
