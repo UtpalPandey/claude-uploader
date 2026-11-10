@@ -1,11 +1,11 @@
 ---
 name: visual-hook
-description: Designs the first 3 seconds of Utpal Pandey's videos (Shorts, Reels, long-form intros) so viewers get pulled IN - an immersive camera move, a familiar visual taste, a static text hook and a verbal hook working together. Use whenever a video, script, storyboard or edit needs a hook, an opening shot, a first frame, a thumbnail-to-video transition, or a retention fix ("hook do", "first 3 sec", "opening kaisa ho", "intro visuals", "storyboard the hook"). Also use alongside the visual-identity, visual-edit and utpal-yt-script-writer skills to supply hook ideas and immersion rules they then render in their own design language.
+description: Designs the first 3 seconds of Utpal Pandey's videos (Shorts, Reels, long-form intros) so viewers get pulled IN - an immersive camera move, a familiar visual taste, a static text hook and a verbal hook working together. Use whenever a video, script, storyboard or edit needs a hook, an opening shot, a first frame, a thumbnail-to-video transition, or a retention fix ("hook do", "first 3 sec", "opening kaisa ho", "intro visuals", "storyboard the hook"). Also use alongside the edit-workflow, visual-identity, camera-animation and utpal-yt-script-writer skills to supply hook ideas and immersion rules they then render in their own design language.
 ---
 
 # Visual Hook
 
-The first 3 seconds decide the video. This skill turns that into rules, ideas and storyboards. It does **not** own the look (colours, type, brand) - that belongs to `visual-identity` / `visual-edit`. It owns **what happens to the viewer** in frame 1 to ~3s.
+The first 3 seconds decide the video. This skill turns that into rules, ideas and storyboards. It does **not** own the look (colours, type, brand) - that belongs to `visual-identity` and `edit-workflow`. It owns **what happens to the viewer** in frame 1 to ~3s.
 
 ## The evidence this skill is built on
 
@@ -58,14 +58,18 @@ Avoid in frame 1: framed pictures-on-a-board, grids of many items, multi-line he
 - [ ] Hook objects reappear later in the video
 - [ ] Works muted AND with sound
 
+## Where this plugs into edit-workflow
+
+When `edit-workflow` reaches brainstorm / shot list, run this skill for shots covering 0–3s: supply 3 hook options, then the approved hook's storyboard becomes shot 1 of its shot list and greybox animatic. When `camera-animation` sketches panels, give it the immersion move (dive-in, push-through…) as the first transition.
+
 ## Workflow
 
 1. **Get the story** from Utpal (or the source reel/topic). Identify the one curiosity the video answers.
-2. **Pick the familiar taste** (ask `visual-identity` / `visual-edit` for the project's style; otherwise propose one).
+2. **Pick the familiar taste** (from `visual-identity`, or the visual bible in `edit-workflow`; otherwise propose one).
 3. **Propose 3 hook options**, each as: Visual move (from toolkit) · Text hook · Verbal hook (Hinglish draft) · Emotion · How it pays off later.
 4. **Utpal picks / corrects.** Do not render or generate video until he approves.
 5. **Storyboard** the chosen hook: 4–8 frames for 0–3s, each with timecode, frame sketch (simple SVG/ASCII is fine), camera arrow (push/tilt/orbit), morph notes, text placement, and the spoken word on that beat.
-6. **Hand off**: wording → `utpal-yt-script-writer`; look/colour/type → `visual-identity`; cuts, transitions, pacing, animation build → `visual-edit` (or a film-style/rendering skill). Pass them the 4-layer hook + checklist so their design keeps the immersion.
+6. **Hand off**: wording → `utpal-yt-script-writer`; look/style → `visual-identity`; shot list, animatic, AI assets, pacing, kinetic text → `edit-workflow`; storyboard panels and seamless camera transitions → `camera-animation`; code-made film styles → `lemo-opuscar`; sound → `real-sound`. Pass them the 4-layer hook + checklist so their design keeps the immersion.
 
 ## Output format for a hook proposal
 
@@ -83,6 +87,6 @@ Payoff later: <where these visuals return>
 
 - Visual: start on a static lens on a table, then **push-through** the front glass; inside, the camera flies between floating glass elements catching light like a cathedral, then stops on one tiny element being polished by hand.
 - Text hook: "Ye glass ₹2 lakh ka kyun?"
-- Verbal: "Is lens ke andar 17 alag glass hain… aur ek bhi galti, poora lens kachra."
+- Verbal: "Is lens ke andar [N - fact-check] alag glass hain… aur ek bhi galti, poora lens kachra."
 - Emotion: awe + "wait, inside a lens looks like that?"
 - Payoff: return inside the lens for each reason (elements, coatings, hand-grinding).
